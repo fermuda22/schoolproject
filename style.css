@@ -1,0 +1,82 @@
+body {
+    background-image: url('https://wpassets.porttechnology.org/wp-content/uploads/2022/03/14094026/iStock-1381344128-scaled.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.tasks {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  
+  	line-height: 65px
+}
+
+.title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  	margin-top: -15px;
+
+    background-color: green;
+    outline: 2px dashed rgb(100, 255, 100);
+}
+
+.title-text {
+    font-family: "Courier New", "sans serif";
+    text-align: center;
+    color: white;
+
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+.form-titles {
+    font-family: "Courier New", "sans serif";
+    text-align: center;
+    color: white;
+  
+    position: relative;
+    left: 25%;
+
+    text-shadow: 1.5px 1px rgb(0, 255, 0);
+}
+
+.title-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    margin-top: 85px;
+}
+
+.inputs {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+  
+    margin-bottom: 15px;
+
+    color: white;
+    background-color: green;
+    outline: 2px dashed rgb(100, 255, 100);
+    font-family: "Courier New", "sans serif";
+}
+
+.task-buttons {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  font-weight: bold;
+  outline: 3.5px dashed #067049;
+}
